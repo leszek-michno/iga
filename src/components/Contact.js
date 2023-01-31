@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { AiOutlineInstagram, AiOutlineFacebook, AiOutlineMail} from 'react-icons/ai';
-import '../styles/Contact.css'
+import '../styles/Contact.scss'
 
 
 const Contact = () => {

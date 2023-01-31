@@ -7,6 +7,7 @@
   width: 50%;
   margin: -5px 0;
   cursor: pointer;
+  
 }
 .big-img {
     display: flex;
@@ -15,7 +16,7 @@
     border: 2px solid white;
     border-radius: 5px;
    
-    
+  
 }
 .big-img img{   
   position: fixed;
@@ -23,7 +24,7 @@
   max-height: 100vh;  
   border: 2px solid white;
   cursor: pointer;
-    
+  
 }
 
 h2 {
@@ -31,10 +32,26 @@ h2 {
     font-weight: 250;
     margin-left: 2%;
     margin-bottom: 20px;
+    margin-top: 45px;
     
 }
 
 .background {
+    max-width: 1000px;
     background-color: #111111;
-    margin: -5px 0;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1025px) {
+  .big-img img{   
+    border: none; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-gallery img {
+    width: 100%;
+  } 
+  .big-img img{   
+    border: none;
+  }
 }

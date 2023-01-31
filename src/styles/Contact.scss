@@ -1,0 +1,15 @@
+.catchMe {
+    margin-top: 100px;
+    text-align: center;
+    a {
+        color: black;
+        margin: 10px;
+        font-size: 30px;
+        &:hover {    
+            color: pink;
+        }        
+    }
+    p {
+        margin-top: 20px;
+    }
+}

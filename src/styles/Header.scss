@@ -1,0 +1,23 @@
+.header {
+ img {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    margin: 0 auto;
+  }
+  h1 {
+    position: absolute;
+    top:60px;
+    margin-left: 1%;
+    color: white;
+    /* opacity: 80%; */
+    font-weight: 250;
+  }
+}   
+    @media screen and (max-width: 600px) {
+      .header img {
+        width: 100%;
+        
+      }
+    }
