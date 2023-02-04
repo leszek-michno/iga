@@ -7,8 +7,9 @@ import Pictures from "./Pictures";
 import Digital from "./Digital";
 import Sketches from "./Sketches";
 // import Tatoo from "./Tatoo";
-import Albums from "./Albums";
+
 import '../styles/NavBar.scss';
+import HomeLinks from "./HomeLinks";
 
 
 export const NaviBar = () => {
@@ -57,7 +58,7 @@ export const NaviBar = () => {
             </button>
           </nav>
       <Routes>
-        <Route path="/" element={<Albums/>} />
+        <Route path="/" element={<HomeLinks/>} />
         <Route path="/contacts" element={<Contact />} />
         <Route path="/draw" element={<Draws />} />
         <Route path="/pictures" element={<Pictures />} />
