@@ -3,7 +3,6 @@ import Gallery from "./Gallery";
 
 const Sketches = () => {
 
-
   return (
     <>
     <h2>Digital</h2>

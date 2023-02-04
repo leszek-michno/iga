@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import '../styles/Gallery.css';
+import '../styles/Gallery.scss';
 
 const Gallery = (props) => {
 

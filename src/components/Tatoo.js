@@ -1,9 +1,7 @@
-
 import { tatoo } from "../database/TatooBase";
 import Gallery from "./Gallery";
 
 const Tatoo = () => {
-
 
   return (
     <>

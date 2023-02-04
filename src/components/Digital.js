@@ -1,9 +1,7 @@
-
 import { digital } from "../database/DigitalBase";
 import Gallery from "./Gallery";
 
 const Draws = () => {
-
 
   return (
     <>

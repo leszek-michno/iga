@@ -1,4 +1,3 @@
-
 import { pics } from "../database/PicturesBase";
 import Gallery from "./Gallery";
 

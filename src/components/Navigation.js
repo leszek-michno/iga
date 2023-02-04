@@ -6,7 +6,7 @@ import Draws from "./Draws";
 import Pictures from "./Pictures";
 import Digital from "./Digital";
 import Sketches from "./Sketches";
-import Tatoo from "./Tatoo";
+// import Tatoo from "./Tatoo";
 import Albums from "./Albums";
 import '../styles/NavBar.scss';
 
@@ -37,7 +37,7 @@ export const NaviBar = () => {
     { name: "digital", path: "/digital" },
     { name: "szkice", path: "/sketch" },
     { name: "malarstwo", path: "/pictures" },
-    { name: "tatuaże", path: "/tatoo" },
+    // { name: "tatuaże", path: "/tatoo" },
   ];
 
   const albums = list.map((item) => (
@@ -56,9 +56,6 @@ export const NaviBar = () => {
               <AiOutlineMenu />
             </button>
           </nav>
-        
-    
-
       <Routes>
         <Route path="/" element={<Albums/>} />
         <Route path="/contacts" element={<Contact />} />
@@ -66,7 +63,7 @@ export const NaviBar = () => {
         <Route path="/pictures" element={<Pictures />} />
         <Route path="/digital" element={<Digital />} />
         <Route path="/sketch" element={<Sketches />} />
-        <Route path="/tatoo" element={<Tatoo/>} />
+        {/* <Route path="/tatoo" element={<Tatoo/>} /> */}
       </Routes>
     </>
   );

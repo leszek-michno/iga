@@ -4,9 +4,7 @@ import './styles/NavBar.scss';
 import { NaviBar } from './components/Navigation';
 import Header from './components/Header';
 
-
-
-function App() {
+const App =()=> {
   return (
     <Router>
     <div className="App">

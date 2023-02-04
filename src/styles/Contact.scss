@@ -1,7 +1,8 @@
 .catchMe {
     margin-top: 100px;
     text-align: center;
-    a {
+    a { 
+        text-decoration: none;
         color: black;
         margin: 10px;
         font-size: 30px;
@@ -9,7 +10,5 @@
             color: pink;
         }        
     }
-    p {
-        margin-top: 20px;
-    }
+
 }
