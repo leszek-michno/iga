@@ -36,12 +36,12 @@ const Albums = () => {
               <img src={imgM} alt="" />
             </figure>
           </NavLink>
-          <NavLink to="./tatoo">
+          {/* <NavLink to="./tatoo">
             <figure>
               <figcaption>tatuaże</figcaption>
               <img src={imgS} alt="" />
             </figure>
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </>
