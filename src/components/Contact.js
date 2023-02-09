@@ -28,8 +28,8 @@ const Contact = () => {
       <a href={"mailto:Iga.luzniak@wp.pl"}>
         <AiOutlineMail />
       </a>
-      <br/>
-      <a href="tel:48-772227413"><p>tel: +48 772 227 413</p></a>
+      
+      
 
     </div>
   );
