@@ -8,6 +8,7 @@ import "../styles/Contact.scss";
 
 const Contact = () => {
   return (
+    <div className="albums">
     <div className="catchMe">
       <p>Można się ze mna skontaktować:</p>
       <br />
@@ -28,9 +29,7 @@ const Contact = () => {
       <a href={"mailto:Iga.luzniak@wp.pl"}>
         <AiOutlineMail />
       </a>
-      
-      
-
+    </div>
     </div>
   );
 };
